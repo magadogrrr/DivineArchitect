@@ -1,4 +1,4 @@
-workspace "DevineArchitect"
+workspace "DivineArchitect"
 	architecture "x64"
 	
 	configurations
@@ -8,7 +8,7 @@ workspace "DevineArchitect"
 		"Dist"
 	}
 	
-outputdir = %{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}
+outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 	
 project "DivineArchitect"
 	location "DivineArchitect"
