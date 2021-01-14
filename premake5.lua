@@ -73,7 +73,7 @@ project "Sandbox"
 
 	includedirs
 	{
-		"%{prj.name}/vendor/spdlog/include",
+		"DivineArchitect/vendor/spdlog/include",
 		"DivineArchitect/src"
 	}
 
